@@ -1,17 +1,10 @@
 {
   "name": "webpack-workshop-2018",
   "version": "1.0.0",
-  "description":
-    "Learning resources for the webpack academy workshop series for 2018",
+  "description": "Learning resources for the webpack academy workshop series for 2018",
   "main": "index.js",
   "scripts": {
-    "webpack": "webpack",
-    "debug":
-      "node --inspect --inspect-brk ./node_modules/webpack/bin/webpack.js",
-    "prod": "npm run webpack -- --mode production",
-    "dev": "npm run webpack -- --mode development --watch",
-    "prod:debug": "npm run debug -- --mode production",
-    "dev:debug": "npm run debug -- --mode development"
+    "serve": "http-server ./"
   },
   "repository": {
     "type": "git",
@@ -20,6 +13,9 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheLarkInn/webpack-workshop-2018/issues"
+  },
   "homepage": "https://github.com/TheLarkInn/webpack-workshop-2018#readme",
   "devDependencies": {
     "@babel/core": "^7.0.0-beta.46",
