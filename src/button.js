@@ -8,4 +8,4 @@ const makeButton = buttonName => {
   return `Button: ${buttonName}`;
 };
 
-export default makeButton
+export default makeButton;
