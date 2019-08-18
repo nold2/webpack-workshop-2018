@@ -18,6 +18,10 @@
   },
   "homepage": "https://github.com/TheLarkInn/webpack-workshop-2018#readme",
   "devDependencies": {
-    "http-server": "^0.11.1"
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "http-server": "^0.11.1",
+    "prettier": "^1.18.2"
   }
 }
